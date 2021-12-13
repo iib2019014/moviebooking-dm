@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chehre</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/m.png" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+
+                <a href="./index.html" class="nav-logo">
+                    <!-- <img src="./assets/logo.svg" alt="simply recipes"> -->
+                    MovieBooking
+                </a>
+                <button type="button" class="btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="./about.html" class="nav-link">About</a>
+                <a href="./genres.html" class="nav-link">Genres</a>
+                <a href="./movies.html" class="nav-link">Movies</a>
+
+                <div class="nav-link contact-link">
+                    <a href="./contact.html" class="btn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page">
+        <div class="recipe-page">
+            <section class="recipe-hero">
+                <img src="./assets/movies/movie-4.jpg" alt="" class="img recipe-hero-img">
+
+                <article>
+                    <h2>Chehre</h2>
+                    <p>An ad agency executive takes shelter at an old man's home in the mountains amid a dangerous snow
+                        storm, but soon finds himself trapped with no way out when the man and his clan of veterans hook
+                        him for a game of crime and punishment.</p>
+
+                    <div class="recipe-icons">
+                        <article>
+                            <i class="fas fa-clock"></i>
+                            <h5>Movie Length</h5>
+                            <p>2 hrs</p>
+                        </article>
+
+                        <article>
+                            <i class="fas fa-user-friends"></i>
+                            <h5>Bookings</h5>
+                            <p>73</p>
+                        </article>
+
+                        <article>
+                            <a href="./booking.html" class="btn btn-primary bookbtn">Book</a>
+                        </article>
+                    </div>
+
+                    <div class="recipe-tags">
+                        Tags : <a href="./tag-template.html">Romance (2)</a>
+                        <a href="./tag-template.html">Comedy (4)</a>
+                        <a href="./tag-template.html">Drama (4)</a>
+                    </div>
+                </article>
+            </section>
+
+            <section class="recipe-content">
+                <article class="instructions">
+                    <h4>Movie Cast and Crew</h4>
+                    <div class="single-instruction">
+                        <header>
+                            <p>Director</p>
+                            <div></div>
+                        </header>
+                        <p>Rumy Jaffery</p>
+                        <header>
+                            <p>Producer</p>
+                            <div></div>
+                        </header>
+                        <p>Anand Pandit</p>
+                        <header>
+                            <p>Music Director</p>
+                            <div></div>
+                        </header>
+                        <p>Himesh Reshammiya</p>
+                    </div>
+                    <div class="single-instruction">
+                        <header>
+                            <p>Male Lead</p>
+                            <div></div>
+                        </header>
+                        <p>Amitabh Bachan</p>
+                        <header>
+                            <p>Female Lead</p>
+                            <div></div>
+                        </header>
+                        <p>Krystle D'Souza</p>
+                    </div>
+                </article>
+                <article class="ingredients">
+                    <div>
+                        <h4>Reviews</h4>
+
+                        <h5>Nazreen</h5>
+                        <p class="single-ingredient">
+                            The plot gives away the story the moment emraan hashmi character walks into the house.
+                            The only suspense in the movie comes from not knowing what they will accuse hashmi character
+                            with.
+                        </p>
+
+                        <h5>Gita</h5>
+                        <p class="single-ingredient">
+                            Chehre streams on Primevideo in orig. Hindi w/Eng. subs. The genre says 'suspense'. The big
+                            name star cast could not redeem a boringly mediocre plot which combines farcical + fantasy
+                            with a dash of horror = acute boredom. Eminently fast forwardable, assuming you can even sit
+                            through that much of the film.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>
+            &copy; <span id="date"></span>
+            <span class="footer-logo">
+                MovieBooking
+            </span>
+            Built by <a href=""></a>
+        </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
